@@ -34,8 +34,10 @@ helm repository server
 
    ```bash
    tar -xvf  helm-{version}-{arch}.tar.gz
-   압축풀린 폴더 내부에 진입 합니다.
-   helm 바이너리를 /usr/local/bin으로 옮깁니다.
+   #압축풀린 폴더 내부에 진입 합니다.
+   #helm 바이너리를 /usr/local/bin으로 옮깁니다.
+   mv helm-3.8.0/ /usr/local/bin/
+   
    ```
    - 비고: helm version은 3을 기준으로 합니다.
 
