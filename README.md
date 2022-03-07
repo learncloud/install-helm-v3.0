@@ -23,6 +23,8 @@ helm repository server
 
    ```bash
    https://github.com/helm/helm/releases 에서 파일을 다운 받습니다.
+   wget https://github.com/helm/helm/archive/refs/tags/v3.8.0.tar.gz
+   
    ```
 
 2. 폐쇄망으로 파일(.tar)을 옮깁니다.
