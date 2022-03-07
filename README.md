@@ -37,7 +37,7 @@ helm repository server
    - 비고: helm version은 3을 기준으로 합니다.
 
 ## Install Steps (Public)
-1. [helm 바이너리 다운 및 설치](#Step-1-helm-바이너리-다운-및-설치)
+1. [helm 바이너리 다운 및 설치]((https://helm.sh/docs/intro/install/)#Step-1-helm-바이너리-다운-및-설치)
 
 ## Step 1. helm 바이너리 다운 및 설치
 - 목적 : `helm 바이너리 다운 및 설치`
