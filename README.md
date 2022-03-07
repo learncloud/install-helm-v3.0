@@ -22,9 +22,11 @@ helm repository server
    - 외부 네트워크 통신이 가능한 환경에서 필요한 바이너리를 다운로드 받습니다.
 
    ```bash
+   #현재 /root/helm 파일임을 가정
    https://github.com/helm/helm/releases 에서 파일을 다운 받습니다.
    wget https://github.com/helm/helm/archive/refs/tags/v3.8.0.tar.gz
    cp v3.8.0.tar.gz helm-v3.8.0.tar.gz
+   mv  helm-v3.8.0.tar.gz /root/HyperRegistry-Chart/downloads
    
    ```
 
