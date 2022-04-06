@@ -48,9 +48,6 @@ helm repository server
    - 비고: helm version은 3을 기준으로 합니다.
 
 
-#  일단 아래는 실행 안하고 진행함 ------------------------------
-
-
 
 ## Helm 기본 명령어 (Helm 3.x 버전 기준)
 1. Repo 조회
