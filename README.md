@@ -40,26 +40,17 @@ helm repository server
    #helm 바이너리를 /usr/local/bin으로 옮깁니다.
    mv helm-3.8.0/ /usr/local/bin/
    
+   # 더이상 필요없는 helm 폴더 제거
+   cd ~
+   rm -rf helm
+      
    ```
    - 비고: helm version은 3을 기준으로 합니다.
 
 
 #  일단 아래는 실행 안하고 진행함 ------------------------------
 
-## Install Steps (Public)
-1. [helm 바이너리 다운 및 설치]((https://helm.sh/docs/intro/install/)#Step-1-helm-바이너리-다운-및-설치)
 
-## Step 1. helm 바이너리 다운 및 설치
-- 목적 : `helm 바이너리 다운 및 설치`
-- 생성 순서 : 
-    - https://github.com/helm/helm/releases 에서 바이너리를 다운 받습니다.
-    - 해당 파일을 압축 풀고 내부의 helm 바이너리를 옮깁니다.
-      ```bash
-      tar -xvf  helm-{version}-{arch}.tar.gz
-      압축풀린 폴더 내부에 진입 합니다.
-      helm 바이너리를 /usr/local/bin으로 옮깁니다.
-      ```
-- 비고: helm version은 3을 기준으로 합니다.
 
 ## Helm 기본 명령어 (Helm 3.x 버전 기준)
 1. Repo 조회
