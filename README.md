@@ -45,6 +45,9 @@ helm repository server
    rm -rf helm
       
    ```
+   
+   ![helm](helm.png)
+   
    - 비고: helm version은 3을 기준으로 합니다.
 
 
